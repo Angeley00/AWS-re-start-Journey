@@ -33,9 +33,6 @@ This section demonstrates practical application of cloud concepts:
 - **RDS & Databases** – Deploy relational databases with backups.  
 - **Infrastructure as Code** – Automate deployments using **CloudFormation templates**.  
 
-Each project includes **step-by-step implementation** and explanations.
-
----
 
 
 
