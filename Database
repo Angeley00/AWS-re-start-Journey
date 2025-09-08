@@ -1,0 +1,30 @@
+# 📚 Database Notes
+
+## AWS Database Services
+- **Amazon RDS (Relational Database Service)** → Managed relational databases (MySQL, PostgreSQL, MariaDB, Oracle, SQL Server).  
+- **Amazon DynamoDB** → Fully managed NoSQL key-value database.  
+- **Amazon Aurora** → High-performance, MySQL/PostgreSQL-compatible.  
+- **Amazon Redshift** → Data warehouse for analytics.  
+- **Amazon ElastiCache** → In-memory caching (Redis, Memcached).
+
+## Key Concepts
+- High availability with Multi-AZ deployments.  
+- Read replicas for scaling read-heavy workloads.  
+- Automated backups and snapshots.  
+- Security via IAM roles, security groups, and KMS encryption.
+
+  # 🛠 Database Labs
+
+## Lab 1: Launch an RDS Instance
+1. Open the RDS console.
+2. Choose "Create Database" → Standard Create.
+3. Engine: MySQL.
+4. Configure DB instance size (db.t2.micro).
+5. Set up credentials and networking (VPC + Security Group).
+6. Launch and connect using a MySQL client.
+
+## Lab 2: DynamoDB Table
+1. Open DynamoDB console → Create table.
+2. Set primary key.
+3. Insert items via console.
+4. Query and scan the table.
