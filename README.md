@@ -37,5 +37,5 @@ Each project includes **step-by-step implementation** and explanations.
 
 ---
 
-## 🗂 Suggested Repository Structure
+
 
