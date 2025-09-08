@@ -17,15 +17,11 @@ This repo is a **central hub** for my AWS re/Start journey, capturing:
 
 ## 📚 Topics & Skills Covered
 
-| Category             | Skills & Tools                                  |
-|---------------------|-----------------------------------------------|
-| Linux Fundamentals   | Command line, file systems, permissions       |
-| Networking           | IP addressing, DNS, routing basics            |
-| Python Programming   | Scripting, automation, AWS SDK usage          |
-| AWS Core Services    | EC2, S3, IAM, RDS, VPC, CloudFormation       |
-| Security & Best Practices | IAM roles, policies, secure configurations |
-| Cloud Concepts       | Scalability, high availability, elasticity   |
-
+- Compute
+- Database
+- Networking
+- Storage Services
+- Security
 ---
 
 ## 🛠 Hands-On Labs & Projects
