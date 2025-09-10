@@ -50,4 +50,3 @@
 
 I understood that cloud security is shared responsibility, requiring vigilance on identity, data, network, and application levels. Implementing monitoring, encryption, and access control is vital to protect workloads effectively.
 
-Implement defense-in-depth: multiple layers of security (network, application, data).
