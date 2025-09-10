@@ -8,7 +8,7 @@ This repository documents my structured learning path through the **AWS re/Start
 ## 📌 About This Repository
 This repo is a **central hub** for my AWS re/Start journey, capturing:
 
-- Key learning notes from modules on **Linux, Networking, Security, Python, and Cloud Fundamentals**.  
+- Key learning notes from modules on **storage services, Networking, Security, database, and Cloud Fundamentals**.  
 - Hands-on labs and projects demonstrating core **AWS services**.  
 - Problem-solving approaches, troubleshooting tips, and scripts.  
 - Reflections on progress and milestones towards a career in **Cloud/DevOps Engineering**.
