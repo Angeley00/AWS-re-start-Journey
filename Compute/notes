@@ -1,0 +1,17 @@
+## Cloud Foundation Notes
+
+# What is Cloud Computing?
+The delivery of IT resources (compute, storage, databases, networking, etc.) over the internet on a pay-as-you-go basis.
+
+# Key benefits: 
+On-demand
+scalable
+elastic
+cost-efficient
+global reach.
+
+# Cloud Models
+Public Cloud: Services delivered over the internet (e.g., AWS, Azure, GCP).
+Private Cloud: Dedicated infrastructure for one organization.
+Hybrid Cloud: Mix of on-prem + cloud.
+Multi-Cloud: Using services from multiple providers.
