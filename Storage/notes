@@ -1,0 +1,68 @@
+## Cloud Storage
+Provides scalable, durable, and secure storage over the internet.
+Pay for what you use (no upfront hardware).
+Used for files, databases, backups, and archives.
+
+## AWS Storage Services
+
+# Amazon S3 (Simple Storage Service)
+Object storage (store files as objects, not blocks).
+Highly durable (99.999999999% → 11 nines).
+Scalable & cost-effective.
+Storage classes: Standard, Intelligent-Tiering, One Zone-IA, Glacier (for archival).
+Features: Versioning, Lifecycle policies, Encryption, Access Control.
+Use cases: Backups, media storage, data lakes, static website hosting.
+
+# Amazon EBS (Elastic Block Store)
+Block storage for EC2 instances.
+Like a hard drive you attach to a VM.
+Persistent → data remains after stopping an instance.
+Types: General Purpose SSD, Provisioned IOPS SSD, Throughput Optimized HDD, Cold HDD.
+Use cases: Databases, OS boot volumes, transactional apps.
+
+# Amazon EFS (Elastic File System)
+File storage that multiple EC2 instances can share.
+Fully managed, scalable (grows/shrinks as you add/remove files).
+NFS protocol support.
+Use cases: Shared content repositories, big data analytics.
+
+# Amazon FSx
+Managed file systems.
+Types:
+FSx for Windows File Server (Windows apps).
+FSx for Lustre (high-performance workloads like ML, HPC).
+Use cases: Enterprise file shares, HPC workloads.
+
+# Amazon S3 Glacier & Glacier Deep Archive
+Low-cost archival storage.
+Retrieval times: minutes to hours.
+Use cases: Compliance archives, backups, long-term storage.
+
+# AWS Storage Gateway
+Hybrid storage service (connects on-premises with AWS).
+Types: File Gateway, Volume Gateway, Tape Gateway.
+Use cases: Backup & disaster recovery, cloud bursting.
+
+# AWS Snow Family
+Physical devices for moving data in/out of AWS.
+Snowcone (small), Snowball (medium), Snowmobile (huge truck for exabytes).
+Use cases: Data migration, edge computing.
+
+## Storage Use Cases
+
+S3 → General object storage, backups, static websites.
+EBS → VM hard drives, databases, apps needing fast performance.
+EFS → Shared storage across multiple EC2s.
+FSx → Specialized workloads (Windows apps, HPC).
+Glacier → Long-term archive.
+Storage Gateway → Hybrid on-prem + cloud.
+Snow Family → Bulk data transfer.
+
+## Best Practices
+
+Use the right storage class for cost optimization.
+Enable S3 Versioning for data protection.
+Use Lifecycle Policies to move data automatically between storage classes.
+Encrypt data at rest (KMS) and in transit (SSL/TLS).
+
+Monitor with CloudWatch + CloudTrail.
