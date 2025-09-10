@@ -42,5 +42,4 @@
 - Integrates with BI tools (QuickSight).
 
 ## **Reflection**
-
-I realized the importance of selecting the right storage type to balance cost, performance and access speed and how lifecycle policies and encryption further optimize storage management.
+I appreciated how AWS allows choosing databases based on workload characteristics, which enhances efficiency, reliability, and performance for various applications.
