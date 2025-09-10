@@ -4,9 +4,9 @@
 
 - AWS uses a Shared Responsibility Model:
 
-* AWS: Security of the cloud (hardware, networking, physical data centers).
+        AWS: Security of the cloud (hardware, networking, physical data centers).
 
-* Customer: Security in the cloud (data, applications, IAM, OS configurations).
+        Customer: Security in the cloud (data, applications, IAM, OS configurations).
 
 ## Core AWS Security Services
 
