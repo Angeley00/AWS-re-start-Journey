@@ -1,19 +1,19 @@
-## What is Cloud Computing?
+## *What is Cloud Computing?*
 -The delivery of IT resources (compute, storage, databases, networking, etc.) over the internet on a pay-as-you-go basis.
 
-## Key benefits: 
-- On-demand
+## *key benefits* 
+- on demand
 - scalable
 - elastic
 - cost-efficient
 - global reach.
 
-#3 Cloud Models
+## *Cloud Models*
 - Public Cloud: Services delivered over the internet (e.g., AWS, Azure, GCP).
 - Private Cloud: Dedicated infrastructure for one organization.
 - Hybrid Cloud: Mix of on-prem + cloud.
 
-# AWS Compute Services
+## *AWS Compute Services*
 
 ## Amazon EC2 (Elastic Compute Cloud)
 - Virtual servers in the cloud.
@@ -30,10 +30,12 @@
 - Run and manage Docker containers.
 - Works with Fargate (no servers) or EC2.
 
-## AWS Global Infrastructure
+## *AWS Global Infrastructure*
 
 - Regions → Physical locations worldwide.
 - Availability Zones (AZs) → Multiple isolated data centers within a region.
 - Edge Locations → For content delivery (Amazon CloudFront).
 - Local Zones & Wavelength Zones → For low-latency computing near users.
 
+## *Reflection*
+This section taught me how aws provide multiple ways to run woakloads depending on scale, architecture and cost consideration.
